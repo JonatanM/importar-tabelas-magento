@@ -4,19 +4,16 @@ Importar Tabelas Magento 1.7+
 
 Importar tabelas magento
 
-atributos.sql
+atributos.sql 	
 
-catalog_eav_attribute.sql
+catalogo.sql 
 
-categorias.sql
-
-clientes.sql
+clientes.sql 	
 
 log_quote.sql
 
 vendas.sql
 
-produtos.sql
 
 ========================
 Antes de fazer a importação!
