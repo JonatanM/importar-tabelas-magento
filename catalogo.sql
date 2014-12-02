@@ -1,5 +1,5 @@
 ========================
-catalog.sql
+catálogo.sql
 ========================
 
 catalogrule
