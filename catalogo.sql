@@ -75,3 +75,9 @@ DELETE FROM `core_url_rewrite` WHERE category_id IN (select entity_id from catal
 DELETE FROM `core_url_rewrite` WHERE product_id IN (select entity_id from catalog_product_entity);
 DELETE FROM `catalog_category_entity`;
 DELETE FROM `catalog_product_entity`;
+
+========================
+Deletar somente as categorias
+========================
+
+DROP TABLE `catalog_category_anc_categs_index_idx`, `catalog_category_anc_categs_index_tmp`, `catalog_category_anc_products_index_idx`, `catalog_category_anc_products_index_tmp`, `catalog_category_entity`, `catalog_category_entity_datetime`, `catalog_category_entity_decimal`, `catalog_category_entity_int`, `catalog_category_entity_text`, `catalog_category_entity_varchar`, `catalog_category_flat_store_1`, `catalog_category_product`, `catalog_category_product_index`, `catalog_category_product_index_enbl_idx`, `catalog_category_product_index_enbl_tmp`, `catalog_category_product_index_idx`, `catalog_category_product_index_tmp`;
